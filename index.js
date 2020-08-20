@@ -29,6 +29,5 @@ function actionApplyer(x,arrayOfFuncs){
   }
   else 
    for (let i=0; i<arrayOfFuncs.length; i++)
-   var z =arrayOfFuncs[i](x);
-return z;
+   return arrayOfFuncs[i](x);
 }
