@@ -28,7 +28,6 @@ function actionApplyer(x,...arrayOfFuncs){
     return x;
   }
   else {
-    return arrayOfFuncs[i]
-    (x);
+    return arrayOfFuncs[i](x);
   }
 }
