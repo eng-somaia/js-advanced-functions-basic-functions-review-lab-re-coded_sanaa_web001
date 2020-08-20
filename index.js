@@ -23,11 +23,12 @@ let arrayOfFuncs = [
           function(a){ return a + 1000},
           function(a){ return a % 7 }
         ]
-function actionApplyer(x,...arrayOfFuncs){
+function actionApplyer(x,arrayOfFuncs){
   if(arrayOfFuncs.length===0){
     return x;
   }
-  else {
-    return arrayOfFuncs[i](x);
-  }
+  else 
+   for (let i=0; i<arrayOfFuncs.length; i++)
+   var z =arrayOfFuncs[i](x);
+return z;
 }
